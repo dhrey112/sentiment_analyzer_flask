@@ -4,8 +4,3 @@ __pycache__/
 env/
 other_requirements.txt
 **.github
-*.github/workflows
-*.github/workflows/
-.github/workflows
-workflows/
-.github/*
