@@ -3,6 +3,9 @@ __pycache__/
 .idea/
 env/
 other_requirements.txt
-*.github
+**.github
 *.github/workflows
-.github/workflows/
+*.github/workflows/
+.github/workflows
+workflows/
+.github/*
