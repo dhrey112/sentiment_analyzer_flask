@@ -5,3 +5,4 @@ env/
 other_requirements.txt
 .github
 .github/workflows
+.github/workflows/
