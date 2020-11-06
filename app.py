@@ -3,7 +3,9 @@ import joblib
 import sklearn
 
 import numpy as np
-from flask import Flask, request
+from flask import Flask, jsonify, request
+from flask_cors import CORS
+
 
 # utilities
 from utils import clean_text
@@ -101,6 +103,7 @@ def predict_all(parameters: dict) -> dict:
 
 
 app = Flask(__name__)
+CORS(app)
 
 
 @app.route('/predict', methods=["POST"])
